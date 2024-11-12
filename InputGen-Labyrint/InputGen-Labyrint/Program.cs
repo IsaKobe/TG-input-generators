@@ -191,7 +191,7 @@ namespace InputGen_Labyrint
                 s.Append(NodePath(lab[end.x][end.y]));
                 return s;
             }
-            return new StringBuilder(-1);
+            return new StringBuilder((-1).ToString());
         }
 
         string NodePath(Node n)
